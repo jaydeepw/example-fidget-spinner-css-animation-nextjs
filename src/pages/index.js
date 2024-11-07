@@ -1,3 +1,5 @@
+import FidgetSpinnerAnimation from "@/components/FidgetSpinnerAnimation";
+import LinkedInAnimation from "@/components/LinkedInAnimation";
 import styles from "@/styles/Home.module.css";
 import localFont from "next/font/local";
 import Head from "next/head";
@@ -27,7 +29,34 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
-          <div className={styles.spinner} />
+          <div className={styles.grid}>
+            <div className={styles.gridCell}>
+              <FidgetSpinnerAnimation />
+            </div>
+            <div className={styles.gridCell}>
+              Hourglass Animation
+              <div className={styles.spinner} />
+            </div>
+            <div className={styles.gridCell}>
+              Shimmer Animation
+              <div className={styles.spinnerContainer}>
+                <div className={styles.linear_background} />
+              </div>
+            </div>
+            <div className={styles.gridCell}>
+              <LinkedInAnimation />
+            </div>
+            <div className={styles.gridCell}>
+              <div className={styles.spinnerContainer}>
+                <div className={styles.linear_background} />
+              </div>
+            </div>
+            <div className={styles.gridCell}>
+              <div className={styles.spinnerContainer}>
+                <div className={styles.linear_background} />
+              </div>
+            </div>
+          </div>
         </main>
         <footer className={styles.footer}>
           <a
