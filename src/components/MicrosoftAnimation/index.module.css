@@ -1,0 +1,89 @@
+.bg {
+  background: url("http://www.hdwallpaperspulse.com/wp-content/uploads/2016/04/28/window-8-wallpaper-hd.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100px;
+}
+
+.animContainer {
+  position: absolute;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.whiteContainer {
+  background-color: #1d1d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
+}
+
+.line {
+  height: 25px;
+  width: 1px;
+  position: absolute;
+  animation: rotate 3.5s linear infinite;
+}
+
+.circle {
+  top: 30px;
+  height: 7px;
+  width: 7px;
+  background: whitesmoke;
+  border-radius: 50%;
+  position: relative;
+}
+
+@keyframes rotate {
+  30% {
+    transform: rotate(220deg);
+  }
+  40% {
+    transform: rotate(450deg);
+  }
+  75% {
+    transform: rotate(720deg);
+    opacity: 1;
+  }
+  76% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+}
+
+.line:nth-child(1) {
+  animation-delay: 0.15s;
+}
+
+.line:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.line:nth-child(3) {
+  animation-delay: 0.45s;
+}
+
+.line:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.line:nth-child(5) {
+  animation-delay: 0.75s;
+}
+
+.line:nth-child(6) {
+  animation-delay: 0.9s;
+}
