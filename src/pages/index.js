@@ -1,4 +1,5 @@
 import FidgetSpinnerAnimation from "@/components/FidgetSpinnerAnimation";
+import GoogleAnimation from "@/components/GoogleAnimation";
 import HourglassAnimation from "@/components/HourglassAnimation";
 import LinkedInAnimation from "@/components/LinkedInAnimation";
 import PinterestAnimation from "@/components/PinterestAnimation";
@@ -103,6 +104,9 @@ export default function Home() {
             </div>
             <div className={styles.gridCell}>
               <PinterestAnimation />
+            </div>
+            <div className={styles.gridCell}>
+              <GoogleAnimation />
             </div>
           </div>
         </main>
