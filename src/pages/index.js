@@ -1,5 +1,8 @@
 import FidgetSpinnerAnimation from "@/components/FidgetSpinnerAnimation";
+import HourglassAnimation from "@/components/HourglassAnimation";
 import LinkedInAnimation from "@/components/LinkedInAnimation";
+import ShimmerAnimation from "@/components/ShimmerAnimation";
+import TwitterAnimation from "@/components/TwitterAnimation";
 import styles from "@/styles/Home.module.css";
 import localFont from "next/font/local";
 import Head from "next/head";
@@ -34,22 +37,21 @@ export default function Home() {
               <FidgetSpinnerAnimation />
             </div>
             <div className={styles.gridCell}>
-              Hourglass Animation
-              <div className={styles.spinner} />
+              <HourglassAnimation />
             </div>
-            <div className={styles.gridCell}>
-              Shimmer Animation
+            {/* <div className={styles.gridCell}>
               <div className={styles.spinnerContainer}>
                 <div className={styles.linear_background} />
               </div>
+            </div> */}
+            <div className={styles.gridCell}>
+              <ShimmerAnimation />
             </div>
             <div className={styles.gridCell}>
               <LinkedInAnimation />
             </div>
             <div className={styles.gridCell}>
-              <div className={styles.spinnerContainer}>
-                <div className={styles.linear_background} />
-              </div>
+              <TwitterAnimation />
             </div>
             <div className={styles.gridCell}>
               <div className={styles.spinnerContainer}>

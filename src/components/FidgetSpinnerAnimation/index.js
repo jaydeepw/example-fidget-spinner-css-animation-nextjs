@@ -1,11 +1,12 @@
 import Image from "next/image";
-import styles from "./FidgetSpinnerAnimation.module.css";
+import homeStyles from "../../styles/Home.module.css";
+import styles from "./index.module.css";
 
 export default function FidgetSpinnerAnimation() {
   return (
     <>
-      Fidget Spinner Animation
-      <div className={styles.whiteContainer}>
+      <span class={homeStyles.title}>Fidget Spinner Animation</span>
+      <div className={homeStyles.whiteContainer}>
         <Image
           className={styles.spinner}
           aria-hidden

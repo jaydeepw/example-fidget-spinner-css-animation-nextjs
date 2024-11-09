@@ -1,12 +1,3 @@
-.whiteContainer {
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-  height: 100px;
-}
-
 .line {
   height: 3px;
   width: 80%;
