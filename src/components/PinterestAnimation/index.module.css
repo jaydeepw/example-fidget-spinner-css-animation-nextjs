@@ -1,0 +1,53 @@
+.circle_box {
+  width: 100px;
+  height: 100px;
+  background-color: #8e8e8e;
+
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.inner_circle_box {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  animation: animate_inner_circle 1.1s linear infinite;
+}
+
+@keyframes animate_inner_circle {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.small_circle {
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.small_circle:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+.small_circle:nth-child(3) {
+  bottom: 0;
+  left: 0;
+}
+.small_circle:nth-child(4) {
+  bottom: 0;
+  right: 0;
+}
