@@ -3,6 +3,7 @@ import GoogleAnimation from "@/components/GoogleAnimation";
 import HourglassAnimation from "@/components/HourglassAnimation";
 import LinkedInAnimation from "@/components/LinkedInAnimation";
 import MicrosoftAnimation from "@/components/MicrosoftAnimation";
+import NetflixAnimation from "@/components/NetflixAnimation";
 import PinterestAnimation from "@/components/PinterestAnimation";
 import ShimmerAnimation from "@/components/ShimmerAnimation";
 import TwitterAnimation from "@/components/TwitterAnimation";
@@ -111,6 +112,9 @@ export default function Home() {
             </div>
             <div className={styles.gridCell}>
               <MicrosoftAnimation />
+            </div>
+            <div className={styles.gridCell}>
+              <NetflixAnimation />
             </div>
           </div>
         </main>
