@@ -1,5 +1,7 @@
 ## Fidget animation and more using pure CSS
 
+[![xxx](https://github.com/jaydeepw/example-fidget-spinner-css-animation-nextjs/blob/main/demo-no-title.gif?raw=true)](https://github.com/jaydeepw/example-fidget-spinner-css-animation-nextjs/blob/main/demo-no-title.gif?raw=true)
+
 ## Getting Started
 
 First, run the development server:
@@ -13,5 +15,3 @@ pnpm dev
 # or
 bun dev
 ```
-
-[![xxx](https://github.com/jaydeepw/example-fidget-spinner-css-animation-nextjs/blob/main/demo-no-title.gif?raw=true)](https://github.com/jaydeepw/example-fidget-spinner-css-animation-nextjs/blob/main/demo-no-title.gif?raw=true)
